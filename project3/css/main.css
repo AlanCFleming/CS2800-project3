@@ -40,8 +40,8 @@ form {
 	text-align: center;	
 }
 
-input[type=submit] {
-	margin: 10px 0px 10px 0px;
+input[type=submit], input[type=button] {
+	margin: 10px
 }
 
 form:only-child {
@@ -65,6 +65,7 @@ input[type=radio], input[type=checkbox], input[type=text] {
 	margin-right: 10px;
 }
 
-input[type=button] {
-	margin: 10px;
+span {
+	color: red;
+	font-style: italic;
 }
