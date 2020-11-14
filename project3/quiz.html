@@ -12,11 +12,48 @@
 
 	<body>
 		<header>
-
+			<h1>Quiz</h1>
 		</header>
 
 		<main>
+			<form>
+				Which of these companies does not make CPU?<br>
+				<label for="nvidia1">Nvidia (correct)</label>
+				<input type="radio" name="question1" id="nvidia1" value="nvidia">
+				<span></span><br>
 
+				<label for="intel1">Intel</label>
+				<input type="radio" name="question1" id="intel1" value="intel">
+				<span></span><br>
+
+				<label for="amd1">AMD</label>
+				<input type="radio" name="question1" id="amd1" value="amd">
+				<span></span><br>
+
+				Which of these companies make processors?<br>
+				<label for="nvidia2">Nvidia (correct)</label>
+				<input type="checkbox" name="question2" id=nvidia2 value="nvidia">
+				<span></span><br>
+
+				<label for="intel2">Intel (correct)</label>
+				<input type="checkbox" name="question2" id=intel2 value="intel">
+				<span></span><br>
+
+				<label for="amd2">AMD (correct)</label>
+				<input type="checkbox" name="question2" id=amd2 value="AMD">
+				<span></span><br>
+
+				<label for="msi">MSI (incorrect)</label>
+				<input type="checkbox" name="question2" id=msi value="msi">
+				<span></span><br>
+
+				What is the real name of "Team Blue"?<br>
+				<input type=text name=question3 id="intel3">
+				<span></span><br>
+
+				<input type=button id="answers" value="Check Answers">
+				<input type=button id="return" value="Return to information page">
+			</form>
 		</main>
 
 		<footer>
