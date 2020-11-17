@@ -20,6 +20,12 @@ var checkAnswers = function() {
 		document.getElementById("amd1").nextElementSibling.nextElementSibling.innerHTML = "";
 	}
 	
+	if(document.getElementById("none").checked) {
+		document.getElementById("none").nextElementSibling.nextElementSibling.innerHTML = "Incorrect";
+	} else {
+		document.getElementById("none").nextElementSibling.nextElementSibling.innerHTML = "";
+	}
+	
 	if(document.getElementById("nvidia2").checked) {
 		document.getElementById("nvidia2").nextElementSibling.nextElementSibling.innerHTML = "Correct";
 	} else {
